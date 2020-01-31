@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body bgcolor="orange">
+    <h1>Registration Form</h1>
+    <table>
+      <tr>
+        <td><label for="firstname">First Name:</label></td>
+        <td><input type="text" name="firstname" id="firstname"></td>
+      </tr>
+      <tr>
+        <td><label for="lastname">Last Name:</label></td>
+        <td><input type="text" name="lastname" id="lastname"></td>
+      </tr>
+      <tr>
+        <td><label for="emailid">Email ID:</label></td>
+        <td><input type="text" name="emailid" id="emailid"></td>
+      </tr>
+      </table>
+      <h4>Select Gender</h4>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <table>
+          <tr>
+            <td><label for="occupation">Occupation:</label></td>
+            <td><input type="text" name="occupation" id="occupation"></td>
+          </tr>
+          <tr>
+            <td><label for="phonenumber">Phone Number:</label></td>
+            <td><input type="text" name="phonenumber" id="phonenumber"></td>
+          </tr>
+          <tr>
+            <td><label for="username">Username:</label></td>
+            <td><input type="text" name="username" id="username"></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" name="password" id="password"></td>
+          </tr>
+          <tr>
+            <td><label for="password">Re-enter Password:</label></td>
+            <td><input type="password" name="password" id="password"></td>
+          </tr>
+          <td>
+            <label for="location">Location:</label></td>
+          <td><select name="city" id="city">
+              <option value="PNG">PNG</option>
+              <option value="india">India</option>
+              <option value="australia">Australia</option>
+              <option value="china">China</option>
+              <option value="USA">USA</option>
+            </select>
+          </td>
+          <tr>
+          <td><label for="feedback">Feedback</label></td>
+          <td><textarea id="feedback" name="feedback" rows="4" cols="40"></textarea></td>
+          </tr><br><br>
+          <tr>
+            <td><input type="submit" value="Submit"></td>
+            <td><input type="reset" value="Reset"></td>
+          </tr>
+        </table>
+  </body>
+</html>
